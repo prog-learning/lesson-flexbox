@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const ParentFrame = ({ children, JC, AA, FD, FW }) => {
-  console.log(AA);
+export const ParentFrame = ({ children, JC, AC, FD, FW }) => {
+  console.log(AC);
   return (
-    <StyledParentFrame JC={JC} AA={AA} FD={FD} FW={FW}>
+    <StyledParentFrame JC={JC} AC={AC} FD={FD} FW={FW}>
       {children}
     </StyledParentFrame>
   );
@@ -20,7 +20,7 @@ export const StyledParentFrame = styled.div`
   margin: 24px auto;
 
   justify-content: ${({ JC }) => JC};
-  align-content: ${({ AA }) => AA};
+  align-content: ${({ AC }) => AC};
   flex-direction: ${({ FD }) => FD};
   flex-wrap: ${({ FW }) => FW};
 `;
