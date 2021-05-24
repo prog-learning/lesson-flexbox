@@ -11,7 +11,7 @@ export const Button = ({ onClick, disabled, children }) => {
 };
 
 const StyledButton = styled.button`
-  background-color: lime;
+  background-color: palegreen;
   margin: 0 8px;
   padding: 8px;
   border-radius: 8px;

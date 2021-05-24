@@ -4,7 +4,7 @@ const wrap = ['wrap', 'no-wrap'];
 
 export const properties = [
   { name: 'justify-content', values: positions },
-  { name: 'align-items', values: positions },
+  { name: 'align-content', values: positions },
   { name: 'flex-direction', values: directions },
   { name: 'flex-wrap', values: wrap }
 ];

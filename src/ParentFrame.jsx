@@ -16,11 +16,11 @@ export const StyledParentFrame = styled.div`
   height: 90vw;
   max-width: 900px;
   max-height: 900px;
-  background-color: peru;
+  background-color: skyblue;
   margin: 24px auto;
 
   justify-content: ${({ JC }) => JC};
-  align-items: ${({ AA }) => AA};
+  align-content: ${({ AA }) => AA};
   flex-direction: ${({ FD }) => FD};
   flex-wrap: ${({ FW }) => FW};
 `;

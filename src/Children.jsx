@@ -15,7 +15,7 @@ export const StyledChildren = styled.div`
   height: 20vw;
   max-width: 200px;
   max-height: 200px;
-  background-color: azure;
+  background-color: peru;
   border-radius: 16px;
   position: relative;
   margin: 0;

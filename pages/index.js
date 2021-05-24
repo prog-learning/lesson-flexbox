@@ -25,7 +25,7 @@ export default function Home() {
     if (property === 'justify-content') {
       setJC(value);
     }
-    if (property === 'align-items') {
+    if (property === 'align-content') {
       setAA(value);
     }
     if (property === 'flex-direction') {
